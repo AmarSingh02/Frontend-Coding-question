@@ -1,0 +1,23 @@
+
+
+.flex{
+  display: flex;
+}
+.justify-between{
+  justify-content: space-between;
+}
+.gap-4{
+  gap: 20px;
+}
+.gap-3{
+  gap: 10px;
+}
+.gap-2{
+  gap: 5px;
+}
+.p-4{
+    padding: 20px;
+}
+.mb-4{
+  margin-bottom: 20px;
+}
