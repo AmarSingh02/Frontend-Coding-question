@@ -37,9 +37,18 @@ button:focus-visible {
 }
 
 
-input {
+input  {
   border-radius: 8px;
   border: 1px solid #d1d5db;
   padding: 10px;
-  font-size: 10px;
+  font-size: 14px;
+}
+
+textarea{
+   border-radius: 8px;
+  border: 1px solid #d1d5db;
+  padding: 10px;
+  font-size: 14px;
+  width: 15%;
+  height: 30%;
 }
