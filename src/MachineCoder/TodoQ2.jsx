@@ -65,7 +65,6 @@ const TodoQ2 = () => {
   return (
   <div style={{ width: "500px", margin: "50px auto", fontFamily: "Arial" }}>
 
-    {/* Input Row */}
     <div style={{ display: "flex", gap: "10px", marginBottom: "20px" }}>
       
       <input
@@ -94,7 +93,6 @@ const TodoQ2 = () => {
       </button>
     </div>
 
-    {/* Todo List */}
     <div>
       {todos.map((item) => (
         <div
