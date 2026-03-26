@@ -10,6 +10,7 @@ import ProgressBar from './inter/ProgressBar'
 import Accordain from './inter/Accordain'
 import Getapi from './inter/Getapi'
 import FormValidations from './MachineCoder/FormValidations'
+import TodoQ2 from './MachineCoder/TodoQ2'
 
 const App = () => {
   return (
@@ -28,7 +29,8 @@ const App = () => {
       {/* <Search/> */}
       {/* <Getapi/> */}
 
-      <FormValidations/>
+      {/* <FormValidations/> */}
+      <TodoQ2/>
 
       
     </div>

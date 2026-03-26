@@ -49,7 +49,7 @@ const Getapi = () => {
         {todos.map((item)=>(
             <div key={item.id} style={{display:'flex', alignItems:'center', textAlign:'center', gap:'30px'}}>
 
-                <input type='checkbox' onChange={()=>handleToogle(item.id)}checked={item.complete} />
+                <input type='checkbox' onChange={()=>handleToogle(item.id)} checked={item.complete} />
                 <p style={{textDecoration:item.complete ? "line-through" :"none"}}>{item.text}</p>
               <p>{item.priority}</p>
                 <button onClick={()=>handleDel(item.id)}>del</button>
