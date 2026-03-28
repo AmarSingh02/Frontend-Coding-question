@@ -13,6 +13,7 @@ import FormValidations from './MachineCoder/FormValidations'
 import TodoQ2 from './MachineCoder/TodoQ2'
 import UseDebounceQ3 from './MachineCoder/UseDebounceQ3'
 import AccordianQ4 from './MachineCoder/AccordianQ4'
+import SearchFilter from './MachineCoder/SearchFilter'
 
 const App = () => {
   return (
@@ -36,7 +37,8 @@ const App = () => {
       {/* <FormValidations/> */}
       {/* <TodoQ2/> */}
       {/* <UseDebounceQ3/> */}
-      <AccordianQ4/>
+      {/* <AccordianQ4/> */}
+      <SearchFilter/>
 
       
     </div>
