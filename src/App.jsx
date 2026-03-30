@@ -14,6 +14,7 @@ import TodoQ2 from './MachineCoder/TodoQ2'
 import UseDebounceQ3 from './MachineCoder/UseDebounceQ3'
 import AccordianQ4 from './MachineCoder/AccordianQ4'
 import SearchFilter from './MachineCoder/SearchFilter'
+import StarRatingQ6 from './MachineCoder/StarRatingQ6'
 
 const App = () => {
   return (
@@ -38,7 +39,8 @@ const App = () => {
       {/* <TodoQ2/> */}
       {/* <UseDebounceQ3/> */}
       {/* <AccordianQ4/> */}
-      <SearchFilter/>
+      {/* <SearchFilter/> */}
+      <StarRatingQ6 StarRating={5}/>
 
       
     </div>

@@ -43,7 +43,6 @@ const endIndex=startIndex+limit;
 const PaginationData=filterDatas.slice(startIndex,endIndex)
 const totalPages=Math.ceil(filterDatas.length/limit)
 
-
 const handlePrev=()=>{
     if(page>1){
         setPage(page-1)
